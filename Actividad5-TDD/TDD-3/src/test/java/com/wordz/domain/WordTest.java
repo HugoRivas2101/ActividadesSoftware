@@ -10,8 +10,12 @@ public class WordTest {
     public void oneIncorrectLetter() {
         var word = new Word("A");
         var score = word.guess("A");
-        assertThat(score.letter(0)).isEqualTo(CORRECT);
+        assertScoreForLetter(score,0, CORRECT);
     }
+    private void assertScoreForLetter(Score score,int position, Letter expected){
+        assertThat(score.letter(position)).isEqualTo(expected);
+    }
+
     // Completa...
 
 }

@@ -13,10 +13,18 @@ public class Score {
     public Letter letter(int position) {
         return resultado;
     }
+
+    //Evalua lo que debe de puntuar la adivinacion.
+    //1er parámetro: índice de la letra a adivinar
+    //2do parámetro: letra supuesta
     public void assess(int position, String attempt) {
-        if (correct.charAt(position) == attempt.
-                charAt(position)) {
+        if (isCorrectLetter(position,attempt)) {
             resultado = Letter.CORRECT;
         }
     }
+
+    private boolean isCorrectLetter(int position, String attempt){
+        return correct.charAt(position)==attempt.charAt(position);
+    }
+
 }
