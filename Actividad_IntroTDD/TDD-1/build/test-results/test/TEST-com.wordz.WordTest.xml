@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.wordz.WordTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-06T04:25:47" hostname="asus" time="0.04">
+  <properties/>
+  <testcase name="oneIncorrectLetter()" classname="com.wordz.WordTest" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
