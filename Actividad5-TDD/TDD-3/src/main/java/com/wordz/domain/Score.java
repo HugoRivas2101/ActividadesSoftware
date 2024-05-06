@@ -1,30 +1,43 @@
 package com.wordz.domain;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Score {
     private final String correct;
-    private Letter resultado = Letter.INCORRECT ;
+    private final List<Letter> results=new ArrayList<>();
+    private int position;
     public Score(String correct) {
         this.correct = correct;
     }
     public Letter letter(int position) {
-        return resultado;
+        return results.get(position);
     }
 
     //Evalua lo que debe de puntuar la adivinacion.
-    //1er parámetro: índice de la letra a adivinar
-    //2do parámetro: letra supuesta
-    public void assess(int position, String attempt) {
-        if (isCorrectLetter(position,attempt)) {
-            resultado = Letter.CORRECT;
+    //parámetro: cadena supuesta
+    public void assess(String attempt) {
+        //Itera sobre cada letra del intento. Si una coincide, se cambia el valor de resultado
+        for(char current:attempt.toCharArray()){
+            //Añade cada score para cada letra
+            results.add(scoreFor(current));
+            position++;
         }
     }
 
-    private boolean isCorrectLetter(int position, String attempt){
-        return correct.charAt(position)==attempt.charAt(position);
+    private Letter scoreFor(char current){
+        //Retorna un valor según la letra. Puede estar en la posición correcta, puede estar
+        //incluida o no puede estar en la palabra a adivinar.
+        if(isCorrectLetter(current)){return Letter.CORRECT;}
+        else if(occursInWord(current)){return Letter.PART_CORRECT;}
+        else {return Letter.INCORRECT;}
     }
 
+    private boolean occursInWord(char currentLetter){
+        return correct.contains(String.valueOf(currentLetter));
+    }
+
+    private boolean isCorrectLetter(char currentLetter){
+        return correct.charAt(position)==currentLetter;
+    }
 }
