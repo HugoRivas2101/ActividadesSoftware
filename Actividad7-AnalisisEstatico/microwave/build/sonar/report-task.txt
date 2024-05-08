@@ -1,0 +1,6 @@
+projectKey=AnalisisEstatico
+serverUrl=http://localhost:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://localhost:9000/dashboard?id=AnalisisEstatico
+ceTaskId=AY9WYGEpEKA8PE3KplVC
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY9WYGEpEKA8PE3KplVC
