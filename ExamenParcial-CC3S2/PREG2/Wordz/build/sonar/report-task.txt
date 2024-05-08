@@ -1,0 +1,6 @@
+projectKey=WORDZ
+serverUrl=http://localhost:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://localhost:9000/dashboard?id=WORDZ
+ceTaskId=AY9YfwLbTUnz3SmOMGuN
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY9YfwLbTUnz3SmOMGuN
