@@ -1,0 +1,14 @@
+
+U
+java:S1128"8Remove this unused import 'java.security.MessageDigest'.(Œð²»8¾Ò˜ƒú1
+e
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾þÿÿÿÿ8¿Ò˜ƒú1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¿Ò˜ƒú1
+J
+java:S1128"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ8ÀÒ˜ƒú1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÀÒ˜ƒú1
+Q
+java:S1068
+"/Remove this unused "description" private field.(ÇÓæâýÿÿÿÿ8ÆÒ˜ƒú1

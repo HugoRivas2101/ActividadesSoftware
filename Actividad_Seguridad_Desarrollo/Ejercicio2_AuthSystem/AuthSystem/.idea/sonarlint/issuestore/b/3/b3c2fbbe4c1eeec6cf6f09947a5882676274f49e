@@ -1,0 +1,7 @@
+
+r	java:S106"+Replace this use of System.out by a logger.(½¢Åœúÿÿÿÿ8Ï»«µû1J$218a132e-d40d-4b71-9e34-e35f786c8b16
+m	java:S106"+Replace this use of System.out by a logger.(·ÄÓþ8Ð»«µû1J$3b73c980-019a-4eec-b040-c952f7b4de1c
+r	java:S106"+Replace this use of System.out by a logger.( §ÔÄûÿÿÿÿ8Ð»«µû1J$a94cc091-62a3-44b1-8511-5e2ff923cf1d
+m	java:S106"+Replace this use of System.out by a logger.(Êô ·8Ñ»«µû1J$1b49f473-79a7-4070-899a-6f5f07effbbd
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ó»«µû1J$a460146b-4761-4b8f-8490-ba70a7319d5c

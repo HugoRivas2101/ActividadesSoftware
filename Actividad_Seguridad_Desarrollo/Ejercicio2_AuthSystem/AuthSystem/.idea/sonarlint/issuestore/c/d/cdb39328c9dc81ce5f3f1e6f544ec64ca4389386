@@ -1,0 +1,8 @@
+
+—
+java:S1104	"TMake userList a static final constant or non-public and provide accessors if needed.(×ûª¿8¬Ãñ«û1J$23e7f05e-1509-4c72-84cf-8d48b9541159
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(·©Šôÿÿÿÿÿ8ÍÃñ«û1J$5fd80613-505e-4f6a-9fb9-0291dce4084c
+m	java:S106"+Replace this use of System.out by a logger.(‹®¯à8ÑÃñ«û1J$d95fdcc6-4855-4a25-ad7c-91b18f213570
+m	java:S106"+Replace this use of System.out by a logger.(º¨‹Ö8ÔÃñ«û1J$edde567c-9ffb-4702-8b1c-4758b2729f22
+m	java:S106"+Replace this use of System.out by a logger.(þÓÂø8™¶ó«û1J$dc7d67e0-f369-4b60-bb58-525dde8e1e68
+r	java:S106)"+Replace this use of System.out by a logger.(á¨ò¨üÿÿÿÿ8¶ó«û1J$721e6ac7-2d6b-4f4b-b4cf-685b547abd76
