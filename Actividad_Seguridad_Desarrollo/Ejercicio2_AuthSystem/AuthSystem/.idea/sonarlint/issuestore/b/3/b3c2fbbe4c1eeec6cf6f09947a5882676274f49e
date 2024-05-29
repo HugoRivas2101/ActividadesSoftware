@@ -1,7 +1,7 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(½¢Åœúÿÿÿÿ8Ï»«µû1J$218a132e-d40d-4b71-9e34-e35f786c8b16
-m	java:S106"+Replace this use of System.out by a logger.(·ÄÓş8Ğ»«µû1J$3b73c980-019a-4eec-b040-c952f7b4de1c
-r	java:S106"+Replace this use of System.out by a logger.( §ÔÄûÿÿÿÿ8Ğ»«µû1J$a94cc091-62a3-44b1-8511-5e2ff923cf1d
-m	java:S106"+Replace this use of System.out by a logger.(Êô ·8Ñ»«µû1J$1b49f473-79a7-4070-899a-6f5f07effbbd
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ó»«µû1J$a460146b-4761-4b8f-8490-ba70a7319d5c
+r	java:S106"+Replace this use of System.out by a logger.(½¢Åœúÿÿÿÿ8Ï»«µû1J$92897137-a6c8-43a4-b742-fc0e44ef536c
+m	java:S106"+Replace this use of System.out by a logger.(·ÄÓş8Ğ»«µû1J$88a29689-a777-4d65-9176-b1dda8854e0a
+r	java:S106"+Replace this use of System.out by a logger.( §ÔÄûÿÿÿÿ8Ğ»«µû1J$1d4dbca2-63cb-411c-9ef7-6a4aaf9dc35a
+m	java:S106"+Replace this use of System.out by a logger.(Êô ·8Ñ»«µû1J$7e6aa3de-bfb8-453c-97d5-722f618478ba
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ô‹×û1

@@ -1,37 +1,37 @@
 
 —
-java:S1104	"TMake userList a static final constant or non-public and provide accessors if needed.(àó‡Ğ8•‡±û1J$6a7aea5b-dd05-4f7e-af8e-3344a363fc29
+java:S1104	"TMake userList a static final constant or non-public and provide accessors if needed.(àó‡Ğ8•‡±û1J$3f0df238-52ce-4f79-a3c2-5c2b19506586
 œ
 java:S1104
-"TMake roleList a static final constant or non-public and provide accessors if needed.(İ•”‹ıÿÿÿÿ8•‡±û1J$ccaf354c-b401-47df-867a-b8830661e01e
+"TMake roleList a static final constant or non-public and provide accessors if needed.(İ•”‹ıÿÿÿÿ8•‡±û1J$3b5734cd-e1a3-4301-968f-130c9a774c41
 £
-java:S1104"[Make permissionsList a static final constant or non-public and provide accessors if needed.(–¨†”øÿÿÿÿ8•‡±û1J$072b708f-9521-4137-a8eb-c0ec17f5f641
+java:S1104"[Make permissionsList a static final constant or non-public and provide accessors if needed.(–¨†”øÿÿÿÿ8•‡±û1J$dee8fa7b-18d4-4fbd-bff2-7f2f3fe7ab25
 q
-java:S1444	".Make this "public static userList" field final(àó‡Ğ8•‡±û1J$0c11d64e-8e65-42b3-9e55-9c65d01b3dec
+java:S1444	".Make this "public static userList" field final(àó‡Ğ8•‡±û1J$36ebf447-4df3-4439-92c1-07f5f78c5cc4
 v
 java:S1444
-".Make this "public static roleList" field final(İ•”‹ıÿÿÿÿ8•‡±û1J$715ca11f-c35d-4968-ae1b-18f4cb6efca2
+".Make this "public static roleList" field final(İ•”‹ıÿÿÿÿ8•‡±û1J$753b247e-b5c6-4046-bdc6-70a1aa162e08
 }
-java:S1444"5Make this "public static permissionsList" field final(–¨†”øÿÿÿÿ8•‡±û1J$a3df9e2a-1cab-4d27-959c-980cb00197b4
-Š
-java:S2259'"BA "NullPointerException" could be thrown; "user" is nullable here.(³“µşÿÿÿÿ8³ãê´û1J$c2dcfb76-f688-4f07-9e2d-d864dd4c2105
-„
-java:S2259E"BA "NullPointerException" could be thrown; "user" is nullable here.(­ô¾J8³ãê´û1J$6879b997-bb54-470b-a725-e5be42c67940
-Š
-java:S2259:"BA "NullPointerException" could be thrown; "user" is nullable here.(ÑíÅòşÿÿÿÿ8¢‘Şµû1J$e5739d96-0cf1-4c39-8433-add54a760a99
-‰
-java:S22592"AA "NullPointerException" could be thrown; "rol" is nullable here.(¾Ù­çùÿÿÿÿ8ôìë´û1J$64f11dc1-5d79-4126-8cb5-31f0b0414747
-`
-java:S2386	"Make this member "protected".(àó‡Ğ8¦òÓµû1J$05f2efb8-8f01-461e-bf4a-ab7a5202ad28
-e
+java:S1444"5Make this "public static permissionsList" field final(–¨†”øÿÿÿÿ8•‡±û1J$5026bceb-52ad-4c8a-aca3-93f496e93127
+c
+java:S22592"AA "NullPointerException" could be thrown; "rol" is nullable here.(¾Ù­çùÿÿÿÿ8„Õ‹×û1
+d
+java:S2259'"BA "NullPointerException" could be thrown; "user" is nullable here.(³“µşÿÿÿÿ8„Õ‹×û1
+d
+java:S2259:"BA "NullPointerException" could be thrown; "user" is nullable here.(ÑíÅòşÿÿÿÿ8…Õ‹×û1
+^
+java:S2259E"BA "NullPointerException" could be thrown; "user" is nullable here.(­ô¾J8†Õ‹×û1
+:
+java:S2386	"Make this member "protected".(àó‡Ğ8ŒÕ‹×û1
+?
 java:S2386
-"Make this member "protected".(İ•”‹ıÿÿÿÿ8•‡±û1J$1b9c61ec-628a-4ce2-9477-62e77dca5b0c
-e
-java:S2386"Make this member "protected".(–¨†”øÿÿÿÿ8•‡±û1J$2928a8c7-fe67-4eb2-9e2a-2b373f1246f5
-r	java:S106"+Replace this use of System.out by a logger.(Ù¸°×úÿÿÿÿ8¢•‡±û1J$0eb3b472-93d2-424d-94ed-dd9256f03114
-r	java:S106"+Replace this use of System.out by a logger.(íé•üÿÿÿÿ8¢•‡±û1J$552bf3ba-6bff-4b7b-a95d-3058a9fa9a44
-r	java:S106!"+Replace this use of System.out by a logger.(ê×ãÈùÿÿÿÿ8¤•‡±û1J$3a3145eb-9de0-4517-8117-162bab3a955f
-m	java:S1064"+Replace this use of System.out by a logger.(·¹ç¢8§•‡±û1J$6c627c57-0061-4a75-9102-2d5f3d0f37e7
-r	java:S1069"+Replace this use of System.out by a logger.(Ÿ¤Úùÿÿÿÿ8¨•‡±û1J$8ef76352-7bcf-439d-8fc0-b3a96e40d165
-r	java:S106;"+Replace this use of System.out by a logger.(Æ…‰îûÿÿÿÿ8©•‡±û1J$c3d3a34d-db0b-4ea4-99a5-40af05274af3
-r	java:S106="+Replace this use of System.out by a logger.(ÁÛ°°şÿÿÿÿ8ıÀÛµû1J$de994090-f9e6-4934-8dba-19047228e878
+"Make this member "protected".(İ•”‹ıÿÿÿÿ8Õ‹×û1
+?
+java:S2386"Make this member "protected".(–¨†”øÿÿÿÿ8Õ‹×û1
+r	java:S106"+Replace this use of System.out by a logger.(Ù¸°×úÿÿÿÿ8¢•‡±û1J$c49ca123-d998-42d8-b1ae-a484ef9b6a2f
+r	java:S106"+Replace this use of System.out by a logger.(íé•üÿÿÿÿ8¢•‡±û1J$5261251b-acba-4aa6-98d8-5de77a826de2
+r	java:S106!"+Replace this use of System.out by a logger.(ê×ãÈùÿÿÿÿ8¤•‡±û1J$d4a6f569-319a-4b9e-9962-0520261d497d
+m	java:S1064"+Replace this use of System.out by a logger.(·¹ç¢8§•‡±û1J$c6561007-0898-4ff9-87fc-463a6b376de4
+r	java:S1069"+Replace this use of System.out by a logger.(Ÿ¤Úùÿÿÿÿ8¨•‡±û1J$d71ea5c2-7c91-49d0-9572-d21664edd76d
+r	java:S106;"+Replace this use of System.out by a logger.(Æ…‰îûÿÿÿÿ8©•‡±û1J$8b04eca1-f5d7-4065-a45b-ad2d2c85379d
+r	java:S106="+Replace this use of System.out by a logger.(ÁÛ°°şÿÿÿÿ8ıÀÛµû1J$446276ab-8046-4609-8746-1bf80a8b5d48

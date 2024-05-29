@@ -9,14 +9,8 @@ S
 #src/main/java/org/example/Role.java,3/c/3c359bdcdf79afa70d5a1e522e08e726dc80f32f
 Y
 )src/main/java/org/example/Permission.java,c/7/c7a1793e000032f642af40a6cc3d9699a0be19f6
-Y
-)src/main/java/org/example/AuthSystem.java,c/d/cdb39328c9dc81ce5f3f1e6f544ec64ca4389386
 [
 +src/main/java/org/example/GestionUsers.java,2/0/20eba5fe46599315602cc3d17134214dda1c96bd
-[
-+src/main/java/org/example/TicketServer.java,6/0/60e306c8e929057a17efc3f6ddff07af9be52473
-c
-3src/main/java/org/example/GestionRolesPermisos.java,4/1/41bd60f61145820218651b139789a2d5ad2f1113
 7
 gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
 Y
