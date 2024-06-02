@@ -52,9 +52,38 @@ Explique qué hacen las líneas 1 y 2 en el código
     }
 ```
 
-La línea 1 realiza un test para validar que, efectivamente, la cantidad de palabras que terminen en "r" o "s" sea igual a 2. En cambio, la línea 2 realiza el test para comprobar que el conteo de palabras que terminen en "r" o "s" sea igual a 0 cuando ninguna palabra cumple con el requisito anterior.
+La línea 1 realiza un test para validar que, efectivamente, la cantidad de palabras que terminen en "s" sea igual a 2. En cambio, la línea 2 realiza el test para comprobar que el conteo de palabras que terminen en "r" o "s" sea igual a 0 cuando ninguna palabra cumple con el requisito anterior.
 
+A continuación se genera un informe con JaCoCo para ver la cobertura de código
+![jacoco](./img/img1.png)
 
+Se observa una cobertura del 83%. Se muestran las líneas que tuvieron cobertura con las pruebas
+
+![jacoco](./img/img2.png)
+
+Las líneas resaltadas en verde significa que tuvieron una cobertura en las prueba. Las líneas de amarillo implican que fueron ejecutadas parcialmente. 
+
+## Ejercicio 3
+
+Explica la línea 1 y el caso de prueba recién agregado
+
+Se contruye un caso de prueba para comprobar la partición de "palabras que terminan en r"
+
+```
+@Test
+void wordsThatEndInR() { // 1
+int words = new CountWords().count("car bar");
+assertThat(words).isEqualTo(2);
+}
+```
+
+Se ingresa como parámetro 2 palabras que terminan en "r", por lo que el resultado esperado es que la función CountWords retorne 2.
+
+Se analiza nuevamente la cobertura de código con JaCoCo
+
+![jacoco_100%](./img/img3.png)
+
+Se observa una cobertura del 100%, lo cual indica que nuestros test cubren todo el código escrito.
 
 
 
