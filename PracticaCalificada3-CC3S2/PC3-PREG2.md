@@ -264,6 +264,13 @@ La clase contiene los métodos:
 
 Se observa que el LCOM4 de la clase Habitacion es 2, debido a que hay 2 grupos de métodos que no son accesibles entre sí. Por lo tanto, se creará una clase extra para la gestión de salidas.
 
+### Clase Acertijo
+La clase acertijo contiene los métodos:
+- responder: contiene al atributo respuesta y cumplido
+- getCumplido: contiene al atributo cumplido
+
+Se observa que el LCOM4 de la clase Acertijo es 1, debido a que todos los métodos tienen al menos un componente mutuamente accesible. La clase tiene alta cohesion
+
 
 ## REPORTE DE JACOCO
 
