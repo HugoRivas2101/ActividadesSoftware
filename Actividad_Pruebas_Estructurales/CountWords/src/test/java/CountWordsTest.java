@@ -23,4 +23,14 @@ public class CountWordsTest {
         int words = new CountWords().count("car bar");
         assertThat(words).isEqualTo(2);
     }
+    @Test
+    void testCountWordsEndingWithS(){
+        int words=new CountWords().count("dogs cats");
+        assertThat(words).isEqualTo(2);
+    }
+    @Test
+    void testEmptyString(){
+        int word=new CountWords().count("");
+        assertThat(word).isEqualTo(0);
+    }
 }
