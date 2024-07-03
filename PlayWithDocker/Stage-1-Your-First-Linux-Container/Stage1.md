@@ -9,7 +9,7 @@ Se ejecuta el contenedor de prueba hello-world.
 
 ![img](./img/img1.png)
 
-Cuando se ejecuta el comando, lo que ocurre es que Docker busca una imagen almacenada en local llamada "hello-world", y como no loa encuentra, Docker se va a su registro por default (Docker Hub) para buscar una imagen llamada "hello-world". En el caso de que exista, la descarga y la ejecuta en el contenedor.
+Cuando se ejecuta el comando, lo que ocurre es que Docker busca una imagen almacenada en local llamada "hello-world", y como no los encuentra, Docker se va a su registro por default (Docker Hub) para buscar una imagen llamada "hello-world". En el caso de que exista, la descarga y la ejecuta en el contenedor.
 
 ## 1.1 Docker Images
 
@@ -67,7 +67,7 @@ docker container run -it alpine /bin/ash
 
 ![img](./img/img7.png)
 
-Se verifica el aislamiento al tratar de listar los archivos usando la misma imagen de alpine
+Se verifica el aislamiento cuando se listan los archivos de un contenedor ejecutado usando la misma imagen de alpine
 
 ```
 docker container run alpine ls
@@ -91,6 +91,7 @@ Se observa que el estado del contenedor es Up, lo que significa que está en eje
 
 ![img](./img/img11.png)
 
+Se observa que el archivo hello.txt está presente en dicho contenedor. Esto demuestra que, incluso cuando se crean contenedores a partir de la misma imagen, cada contenedor tiene un sistema de archivos aislado.
 
 ## 1.3 Terminología
 
