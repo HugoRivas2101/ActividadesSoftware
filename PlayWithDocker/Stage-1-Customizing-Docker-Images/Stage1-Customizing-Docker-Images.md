@@ -5,7 +5,7 @@
 
 ## Image Creation From a Container
 
-Se inicia el laboratorio usando una shell interactiva en un contenedor de ubuntu
+Se inicia el laboratorio usando una shell interactiva en un contenedor creado a partir de una imagen de ubuntu
 ```
 docker container run -ti ubuntu bash
 ```
@@ -19,17 +19,17 @@ figlet "hello docker"
 
 Vamos a intentar crear una imagen a partir de este contenedor que tiene instalado figlet. 
 
-Primero se debe obtener el ID del contenedor, el cual se obtiene fácilmente listanto los contenedores.
+Primero se debe obtener el ID del contenedor, el cual se obtiene fácilmente listando los contenedores.
 ```
 docker container ls -a
 ```
 ![img](./img/img2.png)
 
-Obtenemos el id de nuestro contenedor. Además, podemos ver los cambios realizdos en el contenedor. Para esto, se usa el siguiente comando
+Obtenemos el id de nuestro contenedor. Además, podemos ver los cambios realizados en el contenedor. Para esto, se usa el siguiente comando
 ```
 docker container diff 6700122fb163
 ```
-En nuestro caso, se realizó la instalación de figlet, por lo que se muestra una lista de los archivos que fueron añadidos o cambiados en el contenedor cuando se instaló figlet. Docker mentiene un registro de toda esta información.
+En nuestro caso, se realizó la instalación de figlet, por lo que se muestra una lista de los archivos que fueron añadidos o cambiados en el contenedor cuando se instaló figlet. Docker mantiene un registro de toda esta información.
 
 Para crear una imagen se necesita hacer un commit al contenedor. El Commit crea una imagen local en el sistema ejecutando Docker. Se ejecuta el comando siguiente para crear una imagen de ese contenedor
 ```
